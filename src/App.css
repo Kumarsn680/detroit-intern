@@ -1,0 +1,61 @@
+.App{
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fafafa;
+}
+
+.post{
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin: 10px 5px;
+  font-family: sans-serif;
+}
+
+.post-tags-reactions{
+  display: flex;
+ align-items: center;
+}
+
+.post-tags{
+  width: 100%;
+  display: flex;
+  color: white;
+}
+
+.post-tag{
+  background-color: #2196f3;
+  height: 20px;
+  border-radius: 5px;
+  padding: 2px 10px;
+  margin: 0 5px;
+}
+
+.post-tags-reactions{
+  width: 100%;
+  display: flex;
+}
+
+.post-reaction{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 50px;
+}
+
+
+@media screen and (max-width:1440px) {
+  .post {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .post {
+      width: 100%;
+    }
+}
+
